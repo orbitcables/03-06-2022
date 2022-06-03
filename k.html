@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+.team-colum {
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+.team-colum-hover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 55px 50px;
+    font-size: 18px;
+    opacity: 0;
+    transition: all 200ms ease-in-out 0s;
+    -moz-transition: all 200ms ease-in-out 0s;
+    -webkit-transition: all 200ms ease-in-out 0s;
+}
+.team-colum-hover:hover{
+opacity:1
+}
+.team-colum-hover h4 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0 0 15px 0;
+}
+</style>
+<body>
+<div class="col-xl-12 tiny-col">
+						<div class="team-colum">
+							<div class="team-colum-hover">
+								<h4>Mark Cuban</h4>
+								<span>Ceo &amp; Founder - Orbit Cables</span>
+							</div>
+							<img src="images/team-image.jpg" alt="" />
+						</div>
+					</div>
+</body>
+</html>
