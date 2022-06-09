@@ -37,7 +37,7 @@ font-family: 'Rubik', sans-serif; */
   src: url(../fonts/SF-Pro-Display-Medium.otf);
 }
 @font-face {
-  font-family: SF-Pro-Display-Regular;
+  	
   src: url(../fonts/SF-Pro-Display-Regular.otf);
 }
 @font-face {
@@ -239,7 +239,7 @@ p:last-child {
 	background-color: #0a082d  ;
 	position: sticky;	
 	top: 0;
-	padding: 16px 32px;
+	padding: 16px 32px 0px 32px ;
 	width: 100%;
 	border-radius: 0;
 	border: none;
@@ -469,7 +469,7 @@ font-family: SF-Pro-Display-Bold;
 	position: relative;
 }
 .globe-img img{
-	max-width: 90%;
+	max-width: 75%;
 }
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
@@ -514,7 +514,7 @@ font-family: SF-Pro-Display-Bold;
 	margin: -150px 0 0 -170px;
 }
 .banner-section{
-	padding-bottom: 200px;
+	padding-bottom: 10px;
 	position: relative;
 }
 .go-down-arrow{
@@ -560,7 +560,7 @@ font-family: SF-Pro-Display-Bold;
 	margin: 0 0 25px 0;
 	color: #FBEE14;
     font-family: SF-Pro-Display-Bold;
-    font-weight: lighter;
+    font-weight: 900;
 }
 .section-heading span{
 	color: #FBEE14;
@@ -576,47 +576,59 @@ font-family: SF-Pro-Display-Bold;
 /*resCarousel Css*/
 .sectiontwo{
 margin-bottom: 0%;
-padding-top: 30px;
+padding-top: 10px;
 }
 .class1, .class2, .class3, .class4, .class5, .class6, .class7, .class8, .class9, .class10, .class11, .class12{
 height: 100px;
 color: white;   
 }
 .class1 {
-background: url('../images/company-logo-1.png') center center no-repeat;
+background: url('../images/company-logo/tata.png') center center no-repeat;
+background-size: contain;
 }
 .class2 {
-background: url('../images/company-logo-2.png') center center no-repeat;
+background: url('../images/company-logo/hercules.png') center center no-repeat;
+background-size: contain;
 }
 .class3 {
-background: url('../images/company-logo-3.png') center center no-repeat;
+background: url('../images/company-logo/siemens.png') center center no-repeat;
+background-size: contain;
 }
 .class4 {
-background: url('../images/company-logo-4.png') center center no-repeat;
+background: url('../images/company-logo/bharat.png') center center no-repeat;
+background-size: contain;
 }
 .class5 {
-background: url('../images/company-logo-5.png') center center no-repeat;
+background: url('../images/company-logo/canara_bank.png') center center no-repeat;
+background-size: contain;
 }
 .class6 {
-background: url('../images/company-logo-6.png') center center no-repeat;
+background: url('../images/company-logo/century.png') center center no-repeat;
+background-size: contain;
 }
 .class7 {
-background: url('../images/company-logo-1.png') center center no-repeat;
+background: url('../images/company-logo/crane.png') center center no-repeat;
+background-size: contain;
 }
 .class8 {
-background: url('../images/company-logo-2.png') center center no-repeat;
+background: url('../images/company-logo/dr.png') center center no-repeat;
+background-size: contain;
 }
 .class9 {
-background: url('../images/company-logo-3.png') center center no-repeat;
+background: url('../images/company-logo/eta.png') center center no-repeat;
+background-size: contain;
 }
 .class10 {
-background: url('../images/company-logo-4.png') center center no-repeat;
+background: url('../images/company-logo/godrej.png') center center no-repeat;
+background-size: contain;
 }
 .class11 {
-background: url('../images/company-logo-5.png') center center no-repeat;
+background: url('../images/company-logo/jml.png') center center no-repeat;
+background-size: contain;
 }
 .class12 {
-background: url('../images/company-logo-6.png') center center no-repeat;
+background: url('../images/company-logo/larsen.png') center center no-repeat;
+background-size: contain;
 }
 
 .outt {
@@ -757,7 +769,7 @@ transition: .6s ease all;
 
 
 .section-third{
-	padding: 50px 0 0px 0;
+	padding: 10px 0 0px 0;
 }
 .post-img{
 	overflow: hidden;
@@ -848,7 +860,7 @@ outline: none;
 	width: 100%;
 }
 .section-forth{
-	padding: 40px 0;
+	padding: 10px 0;
 }
 .cont-para p{
 	color: #fff;
@@ -873,7 +885,7 @@ outline: none;
 	margin-top: 80px;
 }
 .section-five{
-	padding: 90px 0;
+	padding: 20px 0;
 }
 .salessection{
 	max-width: 83%;
@@ -1252,7 +1264,17 @@ font-size: 14px;
 	display: none;
 }
 .catalogue-wrapper{
-	padding: 0 80px;
+	padding: 0 20px;
+}
+.catalogue__img{
+	height: 300px;
+    width: 250px;
+    padding: 24px;
+}
+.catalogue__img:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
 /* about */
 .servoce-ico{
@@ -3457,7 +3479,7 @@ display: inline-block;
 
 .dropdown1-content{
     list-style-type: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 .dropdown1-content li {
     display: flex;
@@ -3600,6 +3622,14 @@ border-radius: 5px;}
 .dropdown3:hover .dropdown3-content {
   display: block;
 }
+#dropbtn3{
+		background-image: url(../images/group1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-right: 15px;
+    font-size: 25px;
+}
 .dropbtn3::after{    
 display: inline-block;
     margin-left: 0.255em;
@@ -3621,6 +3651,7 @@ display: inline-block;
   position: relative;
   display: inline-block;
   float: right;
+  padding-top: 12px !important;
 }
 
 .dropdown3-content {
@@ -3632,7 +3663,7 @@ display: inline-block;
   padding: 10px 10px;
   z-index: 1;
   opacity: 0.8;
-  margin-top: 32px;
+  margin-top: 46px;
 }
 
 .dropdown3:hover, .dropdown3-content {
@@ -3668,7 +3699,8 @@ div#slider figure {
   animation: 30s slidy infinite; 
 }
 .banner {
-    margin-bottom: 5%;
+    margin-bottom: 10px;
+
 }
 .banner {
     margin-top: -35px;
@@ -3694,12 +3726,13 @@ div#slider figure {
     font-family: "Open Sans", sans-serif;
 }
 .banner__img {
-    background: url(../images/banneer1.png) no-repeat;
+    background: url(../images/factory-banner.png) no-repeat;
     height: 640px;
     background-position: center;
     width: auto;
     text-align: center;
-        /*background-size: contain;*/
+        background-size: cover;
+        	box-shadow: 1px 10px 30px 20px rgba(20, 71, 163, .3);
 }
 
 
@@ -3810,7 +3843,7 @@ li a:hover, .dropdown2:hover .dropbtn2 {
 
 .dropdown2:hover .dropdown2-content {
   display: flex;
-      padding: 5px 5px !important;
+      padding: 10px 10px !important;
 }
 
 .contacticon{
@@ -3819,7 +3852,20 @@ li a:hover, .dropdown2:hover .dropbtn2 {
 }
 .customer{
 	float: right;
+	padding-top: 10px !important;
 }
+.customer__navbar h4{
+	text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.customer__navbar{
+	text-decoration: none;
+}
+.customer__navbar:hover{
+	text-decoration: none;
+}
+
 .navimg1 {
     height: 35px;
     width: 35px;
