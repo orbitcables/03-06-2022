@@ -23,30 +23,230 @@
 		<link type="text/css" href="css/slick.css" rel="stylesheet" />
 		<link type="text/css" href="css/jquery.flipster.min.css" rel="stylesheet" />
 		<link type="text/css" href="css/custom.css" rel="stylesheet" />
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
 	</head>
+<style>
+	.contact-panel {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 142px 0 0;
+     font-family: NunitoSans-Regular;
+}
+.contact-panel h2 {
+    font-size: 28px;
+    margin: 0 0 25px 0;
+    color: #fff;
+    font-family: SF-Pro-Display-Bold;
+    font-weight: 400;
+    text-align: center;
+}
+.add-block {	
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.addcol {
+    font-size: 18px;
+}
+.addcol h4 {
+    font-weight: var(--weight700);
+    font-size: var(--font18);
+    padding-bottom: 8px;
+   color: #fff;
+}
+.addcol a {
+    color: var(--black);
+    color: #fff;
+    transition: all 0.4s linear;
+}
+.addcol .sociallist {
+    margin-top: 0;
+}
+.addcol .sociallist ul li:first-child a {
+    padding-left: 0;
+}
+.sociallist ul li a {
+    line-height: 1;
+    font-size: var(--font18);
+    font-weight: var(--weight400);
+    padding: 4px 0;
+    width: 26px;
+    height: 26px;
+    display: block;
+    text-align: center;
+    border-radius: 24px;
+    margin: 0 3px;
+    color: #fff;
+   ;
+}
+.copyright-block ul li, .sociallist ul li {
+    display: inline-block;
+}
+.orline {
+    position: relative;
+}
+.orline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.orline span {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -5px;
+    background-color: #0d194b;
+    width: 100px;
+    margin: 0 auto;
+}
+.contactform {
+    padding: 50px 0 142px;
+}
+.contactform h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.form-container {
+    padding-top: 45px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input, .form-group textarea, .form-group select {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1;
+    color: #464646;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    padding: 10px 15px;
+}
+.form-container .form-group label.error {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+.inputrow {
+    display: flex;
+    justify-content: space-between;
+}
+.inputrow .form-group {
+    width: 46%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group select {
+    padding: 10px 12px;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 120px;
+}
+.form-container .solidbtn {
+    width: 35%;
+    margin: 40px auto 0;
+    display: block;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
 
+
+
+
+
+
+
+
+
+
+</style>
 	<body>
 		<div class="header">
-    <h1 class="header__logoH1">
-      <a class="header__logo" title="ORBIT CABLES" href="index.html">
-      </a>
-    </h1>
-          <div id="menuToggle"> 
-              <input type="checkbox">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-             </div>
-      <div class="header__navbar">
-          <ul class="header__navbarli" id="header_navbarli">
-            <li> <a class="header__navbarlist" href="about.html" title="about us"> About Us</a></li>
-            <li> <a class="header__navbarlist" href="companies.html" title="Our client">Our Client</a></li>
-            <li> <a class="header__navbarlist" href="product-page.html" title="our product">Our Product</a></li> 
-            <li> <a class="header__navbarlist active" href="contact.html" title="contact us">Contact Us</a></li>
-             <li> <a class="header__navbarlist" href="store.html" title="Store locator ">Store Locator</a></li>
-          </ul>
-      </div>
-  </div>
+				<h1 class="header__logoH1">
+					<a class="header__logo" title="ORBIT CABLES" href="index.html"></a>
+    			</h1>
+    			<div id="menuToggle">
+              			<input type="checkbox">
+                  		<span></span>
+                  		<span></span>
+                  		<span></span>
+             		</div>
+    		<div class="header__navbar">
+    			<ul class="header__navbarli" id="header_navbarli">
+    				<li class="dropdown2"> <a class="header__navbarlist " id="dropbtn2" href="about.html" title="about us">COMPANY</a>
+    					<ul class="dropdown2-content">
+  							<li><a class="dropdown__navbarlist2" href="about.html"><img class="navimg1" src="./images/1-11.png"><h4>ABOUT US</h4></a></li>
+  							<li><a class="dropdown__navbarlist2" href="companies.html"><img class="navimg1" src="./images/1-12.png"><h4>CLIENTELE</h4></a></li>
+  							<li><a class="dropdown__navbarlist2" href="news.html"><img class="navimg1" src="./images/1-13.png"><h4>NEWS & MEDIA</h4></a></li>
+  							<li><a class="dropdown__navbarlist2" href="events.html"><img class="navimg1" src="./images/1-14.png"><h4>EVENTS</h4></a></li>
+  							<li><a class="dropdown__navbarlist2" href="other.html"><img class="navimg1" src="./images/1-13.png"><h4>OTHER ACTIVITIES</h4></a></li>
+						</ul>
+    				</li>
+    				<li class="dropdown4"> <a class="header__navbarlist" id=" dropbtn4" href="product-page.html" title="our product">PRODUCTS</a>
+    					<ul class="dropdown4-content">
+  							<li><a class="dropdown__navbarlist4" href="wires.html"><img class="navimg1" src="./images/2-11.png"><h4>WIRES & CABLES</h4></a></li>
+  							<li><a class="dropdown__navbarlist4" href="switch.html"><img class="navimg1" src="./images/2-12.png"><h4>SWITCHES & ACCESSORIES</h4></a></li>
+  							<li><a class="dropdown__navbarlist4" href="https://orbitlightings.com/"><img class="navimg1" src="./images/2-13.png"><br><h4>LED & LIGHTING SOLUTION</h4></a></li>
+  							<li><a class="dropdown__navbarlist4" href="mcb.html"><img class="navimg1" src="./images/2-14.png"><br><h4>MCB & CIRCUIT BREAKER</h4></a></li>
+  							<li><a class="dropdown__navbarlist4" href="pipes.html"><img class="navimg1" src="./images/2-15.png"><br><h4>PVC PIPES & CONDUITS</h4></a></li>
+						</ul>
+    				</li>
+    				<li class="dropdown1"> <a class="header__navbarlist" id="dropbtn1" href="product-page.html" title="our product">CUSTOMER LOUNGE</a>
+    					<ul class="dropdown1-content">
+  							<li><a class="dropdown__navbarlist1" ><img class="navimg1" src="./images/3-11.png"><h4>PRODUCT BROCHURES</h4></a></li>
+  							<li><a class="dropdown__navbarlist1" href="companyprofile .html"><img class="navimg1" src="./images/3-12.png"><h4>COMPANY PROFILE CATALOGUE</h4></a></li>
+  							<li><a class="dropdown__navbarlist1" href="contact.html"><img class="navimg1" src="./images/3-13.png"><h4>STORE LOCATOR</h4></a></li>
+  							<li><a class="dropdown__navbarlist1" href="cablecalculator.html"><img class="navimg1" src="./images/3-14.png"><br><h4>CABLE CALCULATOR</h4></a></li>
+					</ul>
+    				</li>
+    				<li> <a class="header__navbarlist" href="carrer.html" title="about us">CARRER</a></li>
+    				<li> <a class="header__navbarlist" href="contact.html" title="about us"> CONTACT US</a></li>
+    				<li class="customer">
+    					<a class="customer__navbar" href="tel:+917900039000" title="Customer Care"> <span>CUSTOMER CARE <br>+91 7900039000</span></a>
+				</li>
+    				<li class="dropdown3"> <a class="header__navbarlist" id="dropbtn3" href="product-page.html" title="our product"><!-- <img class="navimg" src="./images/group1.png"> --></a>
+    					<ul class="dropdown3-content">
+						<li><a class="dropdown__navbarlist3" href="https://wa.me/917900039000"><img class="navimg" src="./images/navwhatsapp.png"><span>WHATSAPP</span></a></li>
+						<li><a class="dropdown__navbarlist3" href="https://play.google.com/store/apps/details?id=com.wizhcomm.orbit_wires"><img class="navimg" src="./images/navapp.png"><span>APP</span></a></li>
+						<li><a class="dropdown__navbarlist3" href="mailto:sales@orbitcables.com"><img class="navimg" src="./images/navmail.png"><span>MAIL</span></a></li>
+					</ul>
+    				</li>
+    			</ul>
+    		</div>
+	</div>
+
+
+
+		  				<div class="banner"><!-- 
+    				<h1>Personalised hiring gurus!</h1>
+    				<p class="banner__para ">finding your next stellar UX employee or dream job</p> -->
+      				<div class="contact__banner"></div>
+ 				 </div>
+
+
 		<section class="body-section">
 			
 			<section class="section-five">
@@ -116,55 +316,131 @@
 
 			<section class="section-five pt-150">
 				<h2 class="section-heading text-center">Product Catalogue</h2>
-				<div class="catalogue-wrapper">
-					<div id="carousel">
-						<ul class="flip-items">
-							<li data-flip-title="Red">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Razzmatazz" data-flip-category="Purples">
-								<img src="images/3d-slide-img-1.jpg">
-							 </li>
-							<li data-flip-title="Deep Lilac" data-flip-category="Purples">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Daisy Bush" data-flip-category="Purples">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Cerulean Blue" data-flip-category="Blues">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Dodger Blue" data-flip-category="Blues">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Cyan" data-flip-category="Blues">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Robin's Egg" data-flip-category="Blues">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Deep Sea" data-flip-category="Greens">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Apple" data-flip-category="Greens">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Pistachio" data-flip-category="Greens">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Pear" data-flip-category="Greens">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Bright Sun" data-flip-category="Yellows">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-							<li data-flip-title="Mikado" data-flip-category="Yellows">
-								<img src="images/3d-slide-img-1.jpg">
-							</li>
-						</ul>
+				<div class="catalogue-wrapper" id="catalogue-id">
+						<object data="pdf/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/New Colour catlog Size 25cm x 25cm 12 small size (1).pdf" target="_blank"><img class="catalogue__img" src="./images/company profile.png" width="auto" height="150"></a>
+						<p class="iconname1">Company Profile</p>
+						</object>
+						<object data="data/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/Multi Wire Flexible Catlogue4.pdf" target="_blank"><img class="catalogue__img" src="./images/Multi Wire Flexible Catlogue.png" width="auto" height="150"></a>
+						<p class="iconname1">Multi Wire Flexible Cables</p></object>
+						<object data="data/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/Ug Catlog6 Final Curved small size.pdf" target="_blank"><img class="catalogue__img" src="./images/Ug Catlog.png" width="auto" height="150"></a>
+						<p class="iconname1">LT Cables</p></object>
+						<object data="data/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/Submersable Cable Catlogue_compressed.pdf" target="_blank"><img class="catalogue__img" src="./images/Submersable Cable Catlogue.png" width="auto" height="150"></a>
+						<p class="iconname1">Submersible Cables</p></object>
+						<object data="data/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/Solar cable Catlouge 2 Small.pdf" target="_blank"><img class="catalogue__img" src="./images/Solar cable Catlouge.png" width="auto" height="150"></a>
+						<p class="iconname1">Solar Cables</p></object>
+						<object data="data/test.pdf" type="application/pdf" width="auto" height="150">
+						<a href="pdf/Range Of Products A4 2 (1).pdf" target="_blank"><img class="catalogue__img" src="./images/Range Of Products.png" width="auto" height="150"></a>
+						<p class="iconname1">Range Of Products</p></object>
 					</div>
 				</div>
 			</section>
+
+
+
+				<div class="contact-panel">
+                 <h2>GET IN TOUCH</h2>
+                 <div class="add-block">
+                     <div class="addcol">
+                         <h4>Call Us</h4>
+                         <a href="tel:79000039000">79000-39000</a>
+                     </div>
+                     <div class="addcol">
+                         <h4>Email Us</h4>
+                         <a href="mailto:info@Orbitelectric.in"> info@orbitelectric.in</a>
+                     </div>
+                     <div class="addcol">
+                         <h4>Store Locator</h4>
+                         <a href="#"> Your nearest store</a>
+                     </div>
+                     <div class="addcol">
+                         <h4>Follow Us</h4>
+                         <div class="sociallist">
+                             <ul>
+                                 <li class="facebook"><a href="https://www.facebook.com/gmmodular/" target="_blank"><img src="images/fb.svg" alt=""><!-- <i class="lab la-facebook-f" ></i> --></a></li>
+                                 <li class="instagram"><a href="https://www.instagram.com/gmmodular/" target="_blank"><img src="images/insta.svg" alt=""><i class="lab la-instagram"></i></a></li>
+                                 <li class="twitter"><a href="https://twitter.com/gmmodular?lang=en" target="_blank"><img src="images/twitter.svg" alt=""><i class="lab la-twitter"></i></a></li>
+                                 <li class="linkedin"><a href="https://in.linkedin.com/company/gmmodular" target="_blank"><img src="images/linkdin.svg" alt=""><i class="lab la-linkedin-in"></i></a></li>
+                                 <li class="youtube"><a href="https://www.youtube.com/user/gmswitches" target="_blank"><img src="images/youtube.svg" alt=""><i class="lab la-youtube"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="orline"><span>OR</span></div>
+                 <div class="contactform">
+                     <h3>Please fill the form below</h3>
+                     <div class="form-container">
+
+                                                             
+                                          <form class="needs-validation" method="POST" id="registerform1">
+											
+                                             <input type="hidden" name="_token" value="2Nk0hmPobCxmjk3CuBk3n9ievOon8mGsRe5PTetN"> 
+
+                            <div class="form-group">
+                                <input type="text" id="fname" name="fname" placeholder="Enter Your Full Name"> 
+                                <label class="error ajax_error" id="fname_error"></label>
+                            </div>
+                             <div class="inputrow">
+                                 <div class="form-group">
+                                     <input type="email" id="email" name="email" placeholder="Email ID">
+                                            <label class="error ajax_error" id="email_error"></label>
+                                 </div>
+
+                                 <div class="form-group">
+                                     <input type="tel" id="phone" name="phone" placeholder="Contact Number">
+                                             <label class="error ajax_error" id="phone_error"></label>
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                <!--<input type="text" id="subject" name="subject" placeholder="Subject"> -->
+                                 
+                           <select id="subject" name="subject" title="Subject">
+                                    <option value="General Enquiry">General Enquiry</option>
+                                    <option value="Customer Care - Support">Customer Care - Support</option>
+                                    <option value="Sales">Sales</option>
+                                    <option value="Dealership">Dealership</option>
+                            </select>
+                                <label class="error ajax_error" id="subject_error"></label>
+                            </div>
+                             <div class="form-group">
+                                            <textarea type="text" placeholder="Type Your Message Here" name="message" id="message"></textarea> 
+                                            <label class="error ajax_error" id="message_error"></label>
+                             </div>
+
+                             <div class="clearfix">
+                                                                  
+                                 <button disabled="" class="ladda-button btn btn-danger custom_field_submit solidbtn" id="load_img_subscribe" style="display:none;">Processing...<img src="https://www.gmmodular.com/public/images/Loader.gif" style="height: 30px;"></button>
+                                 <button class="ladda-button btn btn-danger custom_field_submit solidbtn" data-style="zoom-in" type="submit" id="contactus_form_submit">
+
+                                        <span class="ladda-label">
+
+                                           Send a message
+
+                                        </span>
+
+                                        <span class="ladda-spinner"></span>
+
+                                    </button>
+                             </div>
+         
+
+
+                         </form>
+                         								
+							
+                     </div>
+                 </div>
+             </div>
+
+
+
+
+
+
 
 		</section>
 
@@ -250,12 +526,12 @@
 
 		</section>
 	
-	</body>
+	
 		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script>
 		<script type="text/javascript" src="js/jquery.flipster.min.js"></script>
-		<script>
+		<script type="text/javascript">
 			$('.post-slider').slick({
 				infinite: true,
 				slidesToShow: 3,
@@ -347,6 +623,7 @@
         buttons:   true,
     });
 </script>
+<script src="./js/common.js"></script>
+</body>
 </html>
 
-<script src="./js/common.js"></script>
