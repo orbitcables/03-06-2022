@@ -7,6 +7,7 @@ body{
     background: linear-gradient(
 0deg
 , rgba(26,60,143,1) 0%, rgba(5,3,33,1) 50%);
+    font-family: SF-Pro-Display-Light;
 }
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Rubik', sans-serif; */
@@ -389,7 +390,9 @@ p:last-child {
 font-family: SF-Pro-Display-Bold;
 }
 .banner-heading span{
-	color:#FBEE14;
+	color:#fff;
+	font-size: 32px;
+	font-family: SF-Pro-Display-Bold;
 }
 .wires-side1{
 	color: #fff;
@@ -405,10 +408,9 @@ font-family: SF-Pro-Display-Bold;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 300;
-	max-width: 73%;
 	margin: 0 0 20px 0;
 	text-align: justify;
-  font-family: SF-Pro-Display-Regular;
+  font-family: SF-Pro-Display-Light;
 	 line-height: 35px;
 }
 /*.btn-view{
@@ -433,7 +435,7 @@ font-family: SF-Pro-Display-Bold;
   border-radius: 25px;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
-   font-family: 'Rubik', sans-serif;
+    font-family: SF-Pro-Display-Bold;
    font-size:16px ;
    border:1px solid #fff;
    outline: none;
@@ -456,6 +458,7 @@ font-family: SF-Pro-Display-Bold;
   transition-timing-function: ease;
   border:1px solid #0a082d;
   outline: none;
+   font-family: SF-Pro-Display-Bold;
 }
 .btn-view:hover .wave {
   margin-bottom: -250px;
@@ -493,9 +496,6 @@ font-family: SF-Pro-Display-Bold;
 .globe-img{
 	text-align: center;
 	position: relative;
-}
-.globe-img img{
-	max-width: 75%;
 }
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
@@ -590,11 +590,15 @@ font-family: SF-Pro-Display-Bold;
 }
 .section-heading span{
 	color: #fff;
-		 font-family: 'Rubik', sans-serif;
+		 font-family: SF-Pro-Display-Bold;
 	 font-weight: 400;
-	 font-size: 34px;
+	 font-size: 32px;
 }
-
+.section-forth p{
+     font-family: SF-Pro-Display-Light;
+     line-height: 35px;
+ 		font-size: 18px;
+}
 
 
 
@@ -779,7 +783,7 @@ transition: .6s ease all;
     font-weight: normal;
     text-transform: uppercase;
     display: inline-block;
-     font-family: 'Rubik', sans-serif;
+      font-family: SF-Pro-Display-Bold;
      font-weight: 500;
 }
 
@@ -814,14 +818,14 @@ transition: .6s ease all;
 	color: #18192E;
 	font-size: 22px;
 	font-weight: 500;
-	font-family: 'Rubik', sans-serif;
+	font-family: SF-Pro-Display-Bold;
 	margin: 0 0 15px 0;
 }
 .post-text p{
 	color: #18192E;
 	font-size: 18px;
 	font-weight: 400;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Light;
 	line-height: 24px;
 }
 .external-link{
@@ -886,7 +890,7 @@ outline: none;
 	width: 100%;
 }
 .section-forth{
-	padding: 10px 0;
+	padding: 40px 0;
 }
 .cont-para p{
 	color: #fff;
@@ -894,7 +898,7 @@ outline: none;
 	font-weight: 300;
 	line-height: 35px;
 	margin-bottom: 50px;
-	font-family: 'Rubik', sans-serif;
+	font-family: SF-Pro-Display-Light;
 }
 .cont-para p:last-child{
 	margin-bottom: 0;
@@ -937,7 +941,7 @@ outline: none;
 	font-size: 32px;
 	font-weight: normal;
 	margin: 0 0 25px 0;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Bold;
 	color: #fbee14;
 }
 .thumb-cont-col p{
@@ -945,7 +949,7 @@ outline: none;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 35px;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Light;
 	margin-bottom: 25px;
 }
 .know-btn{
@@ -1027,7 +1031,7 @@ outline: none;
 	line-height: 1;
 	font-weight: 500;
 	margin: 0 0 25px 0;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Bold;
 }
 .sub-heading{
 	font-size: 22px;
@@ -1035,14 +1039,14 @@ outline: none;
 	line-height: 1;
 	font-weight: 500;
 	margin: 0 0 25px 0;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Bold;
 }
 .achivment-col p{
 	color: #fff;
     font-size: 18px;
 	font-weight: 300;
 	line-height: 35px;
-	font-family: 'Rubik', sans-serif;
+	font-family: SF-Pro-Display-Light;
 }
 .achivment-row{
 	padding: 0 50px;
@@ -1088,7 +1092,7 @@ outline: none;
 	color: #fff;
 	font-size: 18px;
 	margin: 0;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Light;
 }
 .form-row + .form-row{
 	margin-top: 40px;
@@ -1161,10 +1165,12 @@ outline: none;
 	    font-weight: 500;
     font-size: 18px ! important;
     margin-bottom: 10px;
+     font-family: SF-Pro-Display-Bold;
 }
 .foot-nav li + li{
 	margin-top: 0px;
 	line-height: 25px;
+  font-family: SF-Pro-Display-Light;
 }
 .foot-nav li h4{
 	font-size: 16px;
@@ -1192,6 +1198,7 @@ text-align: center;
 	padding-right: 35px;
 	color: #fff;
 	font-size: 16px;
+  font-family: SF-Pro-Display-Light;
 }
 .footer__copy{
 	text-align: center;
@@ -1200,6 +1207,7 @@ text-align: center;
 }
 .footer__copy p{
 font-size: 14px;
+  font-family: SF-Pro-Display-Light;
 }
 .footer__socialmedia{
 	text-align: center;
@@ -1327,6 +1335,10 @@ font-size: 14px;
 	font-weight: normal;
 	font-size: 25px;
 	margin: 0 0 15px 0;
+	 font-family: SF-Pro-Display-Light;
+}
+.team-colum-hover span{
+	 font-family: SF-Pro-Display-Light;
 }
 .team-colum:hover .team-colum-hover{
 	opacity: 1;
@@ -2183,12 +2195,15 @@ font-size: 14px;
 }
 .section-heading p{
 	margin-top: 30px;
+	font-family: SF-Pro-Display-Light;
+	font-weight: 100;
 }
 .sub-small-heading{
 	font-size: 24px;
 	font-weight: 500;
 	color: #fff;
 	margin: 0 0 0px 0;
+	 font-family: SF-Pro-Display-Bold;
 }
 .company-logo-wrap{
 	display: flex;
@@ -2208,7 +2223,21 @@ font-size: 14px;
 .row-company-logo + .row-company-logo{
 	margin-top: 100px;
 }
-
+/*product page starts from here*/
+.product__banner {
+    margin-top: -35px;
+    margin-bottom: 10px;	
+}
+}
+.product__banner__img {
+    background: url(../images/bannee21.png) no-repeat;
+    height: 435px;
+    background-position: center;
+    width: auto;
+    text-align: center;
+    background-size: contain;
+}
+/*product page ends from here*/
 @media (max-width:1509px){
 	.company-logo-column-1 {
 		width: 20%;
@@ -2312,12 +2341,13 @@ font-size: 14px;
     left: 0;
     top: 0;
     right: 0;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
     color: #141414;
     text-align: left;
     font-weight: normal;
     padding: 30px;
+     font-family: SF-Pro-Display-Bold;
 }
 .arrow-btn{
 	background-image: url(../images/blue-down-arrow.svg);
@@ -2337,7 +2367,7 @@ font-size: 14px;
 	margin: 0 0 50px 0;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Light;
 	line-height: 30px;
 }
 .address-list li + li{
@@ -2347,7 +2377,7 @@ font-size: 14px;
 	font-size: 24px;
 	font-weight: 500;
 	color: #fff;
-	font-family: 'Rubik', sans-serif;
+	 font-family: SF-Pro-Display-Light;
 }
 .address-list li img{
 	margin-right: 10px;
@@ -2707,6 +2737,7 @@ font-size: 14px;
     font-weight: 300;
     min-height: 165px;
     position: relative;
+     font-family: SF-Pro-Display-Bold;
 }
 .company-overview .block span {
     font-weight: 500;
@@ -2714,6 +2745,7 @@ font-size: 14px;
     color: #FBEE14;
     display: block;
     line-height: 50px;
+     font-family: SF-Pro-Display-Bold;
 }
 .company-overview .block:before {
     width: 30px;
@@ -2901,10 +2933,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-size: 2.5em;
     margin-bottom: 10px;
     font-weight: 600;
+     font-family: SF-Pro-Display-Bold;
 }
 .ourJourney--main-wrapper .journey-image--slider .journey--slide p span {
     color:  #FBEE14;
     font-weight: 600;
+      font-family: SF-Pro-Display-Light;
 }
 .ourJourney--main-wrapper .journey-image--slider .journey--slide p {
     font-size: 1.125em;
@@ -2998,6 +3032,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .ourJourney--main-wrapper .journey-years--slider .journey--year.slick-current {
     font-weight: 600;
     font-size: 2.5em;
+     font-family: SF-Pro-Display-Bold;
 }
 .ourJourney--main-wrapper .journey-years--slider .journey--year {
     padding: 0 50px;
@@ -3012,6 +3047,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     align-items: center;
     outline: 0;
     cursor: pointer;
+     font-family: SF-Pro-Display-Bold;
 }
 .slick-slide {
     float: left;
@@ -3043,6 +3079,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-size: 1.05em;
     text-align: center;
     line-height: normal;
+      font-family: SF-Pro-Display-Light;
 }
 
 
@@ -3090,6 +3127,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 60px 30px 60px 50px;
     border: 15px solid #fff;
     border-right: 0px;
+     font-family: SF-Pro-Display-Bold;
 }
 .some-facts:before {
     top: -15px;
@@ -3155,6 +3193,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .some-facts-counter {
     padding-top: 130px;
+     font-family: SF-Pro-Display-Bold;
 }
 .wt-icon-box-wraper {
     position: relative;
@@ -4170,7 +4209,7 @@ li a:hover, .dropdown2:hover .dropbtn2 {
     font-size: 14px;
     color: #fff;
     line-height: 1;
-    font-family: 'Rubik', sans-serif;
+      font-family: SF-Pro-Display-Light;
     float: left;
     margin-left: 40px;
 }
@@ -4470,13 +4509,14 @@ h4 {
 }
 .media__banner__img{
     background: url(../images/media.jpg) no-repeat;
-    height: 600px;
+    height: 432px;
     background-position: center;
     width: auto;
     text-align: center;
     background-size: cover;
     box-shadow: 1px 10px 30px 20px rgb(20 71 163 / 30%);
 }
+
 /*media page ends */
 
 
@@ -4806,3 +4846,242 @@ option{
     width: 90%;
 }
 /*carrer page ends */
+
+/*product brochures page starts from here*/
+.product__banner__img {
+    background: url(../images/banneer1.png) no-repeat; 
+    height: 640px;
+    background-position: center;
+    width: auto;
+    text-align: center;
+    background-size: contain;
+   /* box-shadow: 1px 10px 30px 20px rgb(20 71 163 / 30%);*/
+}
+/*product page ends from here*/
+
+
+/*companies page starts from here*/
+.companies__banner{
+margin-top: -35px;
+margin-bottom: 10px;
+}
+.companies__img{
+    background: url(../images/clientele.jpg) no-repeat;/*clientele_banner*/
+    height: 640px;
+    background-position: center;
+    width: auto;
+    text-align: center;
+    background-size: cover;
+    box-shadow: 1px 10px 30px 20px rgb(20 71 163 / 30%);
+}
+
+
+
+/*companies ends from here*/
+
+
+
+/*parallax page*/
+.parallax {
+  /* The image used */
+  background-image: url('../images/factory-banner.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  /*height: 100%;*/
+  scroll-behavior: smooth;
+}
+.parallax1{
+     background: rgb(26,60,143);
+    background: linear-gradient(
+0deg
+, rgba(26,60,143,1) 0%, rgba(5,3,33,1) 50%);
+    font-family: SF-Pro-Display-Light;
+    scroll-behavior: smooth;
+}
+
+/*parallax page ends */
+/*media page starts from here*/
+.events__header{
+margin: 50px 0px 50px 0px;
+}
+.events__header1{
+/*	  display: inline-block;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+       font-family: SF-Pro-Display-Light;
+   font-size:16px ;
+   border:1px solid #fff;
+   outline: none;
+   background-color: #fff;*/
+    display: inline-block;
+    margin-left: 2%;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    border: none;
+     font-family: SF-Pro-Display-Light;
+     font-size: 18px;
+}
+.active {
+  color: #f9bf34;
+  border: none;
+  outline: none;
+}
+.hide {
+  display: none;
+}
+
+button:focus{
+	outline: none;
+}
+.e__header{
+	font-size: 16px;
+    color: #fff;
+    font-family: SF-Pro-Display-Bold;
+    font-weight: 200;
+    float: left;
+    margin-right: 7%;
+}
+.e__image{
+	/*width: 400px;*/
+	height: 300px;
+}
+.e__date{
+color: #fff;
+font-size: 14px;
+font-family: SF-Pro-Display-Light;
+margin: 10px 0px 10px 0;
+}
+.e__para{
+	font-family: SF-Pro-Display-Light;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+.e__data{
+	float: right;
+    width: 55%;
+}
+.e__header1{
+	    font-size: 22px;
+    color: #fff;
+    font-family: SF-Pro-Display-Bold;
+    font-weight: 200;
+}
+.e__image {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.e__image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.e__image1{
+	height: 300px;
+	width: 400px;
+}
+.e__data1{
+	float: right;
+    width: 50%;
+}
+.e__image2 {
+    width: 350px;
+  }
+  .e__image3{
+  	width: 350px;
+  	height: 300px;
+  }
+/*media page ends here*/
+/*switches page starts from here*/
+.switch__banner{
+    margin-top: -35px;
+    margin-bottom: 10px;
+}
+.switch__banner__img{
+    background: url(../images/switches.png) no-repeat;
+    height: 432px;
+    background-position: center;
+    width: auto;
+    text-align: center;
+    background-size: cover;
+    box-shadow: 1px 10px 30px 20px rgb(20 71 163 / 30%);
+}
+.switch__image{
+float: left;
+text-align: right;
+}
+.switch__content{
+margin-top: 3%
+}
+.switch__img{
+	height: 400px;
+}
+.switch__content h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    	font-family: SF-Pro-Display-Light;
+    	color: #fff;
+}
+.switch__content h1{
+	font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+      font-family: SF-Pro-Display-Bold;
+      color: #fff;
+}
+.switch__content p{
+	font-family: SF-Pro-Display-Light;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 2% 0 5% 0;
+}
+.catalogue1 h2 {
+    font-size: 32px;
+    margin: 0 0 25px 0;
+    color: #fff;
+    font-family: SF-Pro-Display-Bold;
+    font-weight: 400;
+    text-align: center;
+}
+.catalogue-wrapper1 {
+    padding: 0px;
+    margin: 0 auto;
+    width: 300px;
+}
+.catalogue-wrapper1 object {
+    margin-right: 70px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 300px;
+}
+.iconname11 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    font-family: SF-Pro-Display-Light;
+    float: left;
+    margin-left: 40px;
+}
+/*switches page end from here */
+

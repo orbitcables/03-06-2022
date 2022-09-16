@@ -1,4 +1,139 @@
-
+@font-face {
+  font-family: nunito-sans-extralight;
+  src: url(../fonts/nunito-sans.extralight.ttf);
+}
+@font-face {
+  font-family: nunito-sans-light;
+  src: url(../fonts/nunito-sans.light.ttf);
+}
+@font-face {
+  font-family: NunitoSans-Regular;
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+  font-family: BebasNeueBold-w1w42;
+  src: url(../fonts/BebasNeueBold-w1w42.otf);
+}
+@font-face {
+  font-family: BebasNeueBold-7B9LE;
+  src: url(../fonts/BebasNeueBold-7B9LE.ttf);
+}
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(../fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Black;
+  src: url(../fonts/SF-Pro-Display-Black.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Bold;
+  src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Heavy;
+  src: url(../fonts/SF-Pro-Display-Heavy.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Light;
+  src: url(../fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Medium;
+  src: url(../fonts/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+     font-family: SF-Pro-Display-Regular;
+  src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Semibold;
+  src: url(../fonts/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Thin;
+  src: url(../fonts/SF-Pro-Display-Thin.otf);
+}
+@font-face {
+  font-family: SF-Pro-Display-Ultralight;
+  src: url(../fonts/SF-Pro-Display-Ultralight.otf);
+}
+@font-face {
+  font-family: PT_Sans-Narrow-Web-Bold;
+  src: url(../fonts/PT_Sans-Narrow-Web-Bold.ttf);
+}
+@font-face {
+  font-family: PT_Sans-Narrow-Web-Regular;
+  src: url(../fonts/PT_Sans-Narrow-Web-Regular.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-SemiboldItalic;
+  src: url(../fonts/SourceSansPro-SemiboldItalic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Black;
+  src: url(../fonts/SourceSansPro-Black.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-BlackItalic;
+  src: url(../fonts/SourceSansPro-BlackItalic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(../fonts/SourceSansPro-Bold.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-BoldItalic;
+  src: url(../fonts/SourceSansPro-BoldItalic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-ExtraLight;
+  src: url(../fonts/SourceSansPro-ExtraLight.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-ExtraLightItalic;
+  src: url(../fonts/SourceSansPro-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Italic;
+  src: url(../fonts/SourceSansPro-Italic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Light;
+  src: url(../fonts/SourceSansPro-Light.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-LightItalic;
+  src: url(../fonts/SourceSansPro-LightItalic.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: SourceSansPro-Semibold;
+  src: url(../fonts/SourceSansPro-Semibold.ttf);
+}
+@font-face {
+  font-family: gnuolane;
+  src: url(../fonts/gnuolane.otf);
+}
+@font-face {
+  font-family: Lihataja;
+  src: url(../fonts/Lihataja.otf);
+}
+@font-face {
+  font-family: Lihataja1;
+  src: url(../fonts/Lihataja.ttf);
+}
+@font-face {
+  font-family: Tripleta-ExtraBold;
+  src: url(../fonts/Tripleta-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Tripleta-ExtraBold-italic;
+   src: url(../fonts/Tripleta-ExtraBold-italic.ttf);
+}
 
   .danger{
     color:#FF0404;
@@ -46,8 +181,8 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 42px;
-    
-    color:#ffc435;
+    font-family: SF-Pro-Display-Bold;
+    color: #fff;
     
   }
 
@@ -68,6 +203,7 @@
       font-size: 20px;
       line-height: 28px;   
       color: #fff;
+        font-family: SF-Pro-Display-Light;
 
   }
   .move span{
@@ -118,27 +254,28 @@
     line-height: 33px;
     color: #fff;
     margin-left:20px;
+      font-family: SF-Pro-Display-Light;
   }
   
   .radio-item label:before {
-    content: " ";
+content: " ";
     display: inline-block;
     position: relative;
     top: 0px;
     margin: 0 5px 0 0;
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 20px;
     border-radius: 11px;
     border: 2px solid #ffc435;
     background-color: transparent;
   }
   .radio-item input[type=radio]:checked + label:after {
-    border-radius: 11px;
-    width: 9px;
+ border-radius: 11px;
+    width: 10px;
     height: 10px;
     position: absolute;
-    top: 12px;
-    left: 10px;
+    top: 9px;
+    left: 11px;
     content: " ";
     display: block;
     background: #ffc435;
@@ -258,7 +395,8 @@
     display: inline-block;
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
-    background: #E0E0E0;
+    background: #fff;
+    font-family: SF-Pro-Display-Light;
   }
 
 
@@ -275,9 +413,9 @@
 
   .input1 span{
     font-style: normal;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 28px;
-    
+      font-family: SF-Pro-Display-Light;
     color: #fff;
     
   }
@@ -286,12 +424,15 @@
       width:100%;
   }
   .btn-large{
-    background-color:#0F3A4C;
-    width:80%;
+    background-color: #ffffff;
+    width: 55%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-family: SF-Pro-Display-Light;
   }
 
   .backdiv{
-      margin-top:-100px;
       margin-left:0px;
       height:300px;
       width:400px;
@@ -300,25 +441,25 @@
   }
 
   .answerbox{
-margin-top: 20px;
-    margin-left: 20px;
-    height: 70px;
-    background-color: white;
+margin-top: 0px;
+    margin-left: 10px;
+    height: 50px;
+    background-color: transparent;
     width: 300px;
     font-size: 30px;
     font-weight: 700;
-    color: black;
+    color: #fff;
+    font-family: SF-Pro-Display-Semibold;
+    padding-top: 10px;
   }
 
 .big{
-    font-family: Roboto;
-font-style: normal;
-font-size: 2.5rem;
-line-height: 56px;
-text-align: center;
-
-
-color: #FFFFFF;
+  font-style: normal;
+    font-size: 26px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: SF-Pro-Display-Bold;
 }
 .down{
     margin-top: 13px;
@@ -326,6 +467,16 @@ color: #FFFFFF;
 
 .move div{
     margin-top: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 @media screen and (max-width: 700px){
