@@ -3779,16 +3779,22 @@ div#slider figure {
     font-family: "Open Sans", sans-serif;
 }
 .banner__img {
-    background: url(../images/factory-banner.png) no-repeat;
-    height: 640px;
+	background: url(../images/factory-banner2.png) no-repeat;
+    height: 500px;
     background-position: center;
     width: auto;
     text-align: center;
-        background-size: cover;
-        	box-shadow: 1px 10px 30px 20px rgba(20, 71, 163, .3);
+    background-size: cover;
+    position: relative;
 }
-
-
+.banner__animation{
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+.banner_animationimage{
+	width: 200px;
+}
 
 .dropdown2 {
   position: relative;
@@ -4412,7 +4418,7 @@ color: #fff;
     background-position: center;
     width: auto;
     text-align: center;
-    background-size: contain;
+    background-size: cover;
     box-shadow: 1px 10px 30px 20px rgb(20 71 163 / 30%);
   }
 
