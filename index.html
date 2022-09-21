@@ -84,7 +84,7 @@
   				<div class="banner"><!-- 
     				<h1>Personalised hiring gurus!</h1>
     				<p class="banner__para ">finding your next stellar UX employee or dream job</p> -->
-      				<div class="banner__img"></div>
+      				<div class="banner__img"><div class="banner__animation" id="banner__animation"><img src="images/logoanimation2.gif" class="banner_animationimage"alt=""></div></div>
  				 </div>
 
   				<!-- 	<section class="section">
@@ -391,7 +391,7 @@
 					</div>
 					<div class="col-lg-4 hide-m">
 						<div style=" transform: scale(1.4);">
-							<img src="images/wire10.png" alt="" />
+							<img src="images/drum.gif" alt="" />
 						</div>
 					</div>
 				</div>
@@ -474,8 +474,8 @@
 				</div>				
 			</section>
 
-			<section class="section-five">
-			<!-- 	<h2 class="section-heading">CSR Activities</h2>
+			<!-- <section class="section-five">
+				<h2 class="section-heading">CSR Activities</h2>
 				<div class="achivment-row">
 					<div class="row">
 						<div class="col-sm-6 activity-colum-wrap">
@@ -524,8 +524,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section> -->
+				</div> 
+
+			</section>-->
 
 			<section class="section-five">
 					<div class="catalogue">
@@ -863,6 +864,17 @@
         buttons:   true,
     });	
 </script>
+<!-- <script type="text/javascript">
+	setTimeout(() => {
+  const box = document.getElementById('banner__animation');
+
+  // 👇️ removes element from DOM
+  box.style.display = 'none';
+
+  // 👇️ hides element (still takes up space on page)
+  // box.style.visibility = 'hidden';
+}, 6250); // 👈️ time in milliseconds
+</script> -->
 <script src="./js/resCarousel.js"></script>
 <script src="./js/common.js"></script>
 </html>
