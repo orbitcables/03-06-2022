@@ -437,7 +437,7 @@ font-family: SF-Pro-Display-Bold;
   transform: translate3d(0, 0, 0);
     font-family: SF-Pro-Display-Bold;
    font-size:16px ;
-   border:1px solid #fff;
+   border:1px solid #050321;
    outline: none;
    background-color: #fff;
 }
@@ -445,7 +445,7 @@ font-family: SF-Pro-Display-Bold;
   position: absolute;
   bottom: 3%;
   left: 50%;
-  background: #55ceff;
+  background: #050321;
   width: 300px;
   height: 300px;
   margin-left: -150px;
@@ -942,7 +942,7 @@ outline: none;
 	font-weight: normal;
 	margin: 0 0 25px 0;
 	 font-family: SF-Pro-Display-Bold;
-	color: #fbee14;
+	color: #050321;
 }
 .thumb-cont-col p{
 	color: #fff;
@@ -951,6 +951,7 @@ outline: none;
 	line-height: 35px;
 	 font-family: SF-Pro-Display-Light;
 	margin-bottom: 25px;
+	color: #050321;
 }
 .know-btn{
 	color: #fff;
@@ -987,7 +988,7 @@ outline: none;
 	border-radius: 20px;
 	font-size: 0;
 	padding: 0;
-	display: block;
+	display: none;
 }
 .item-slider .slick-dots li + li{
 	margin-top: 10px;
@@ -1014,16 +1015,20 @@ outline: none;
 }
 .event-item, .event-slider{
 	padding: 0 20px;
+	background-color: transparent !important;
+}
+.our_products{
+	padding: 0 80px;
 }
 .event-item img{
-	width: 100%;
-	border-radius: 13px;
+/*	width: 100%;
+	border-radius: 13px;*/
 }
 .event-slider .slick-prev {
 	left: 18px;
 }
 .event-slider .slick-next {
-	right: 18px;
+	right: 150px;
 }
 .achivment-col h3{
 	font-size: 48px;
@@ -2878,6 +2883,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     user-select: none;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    background-color: 	#D3D3D3;
 }
 .slick-slider .slick-list, .slick-slider .slick-track {
     transform: translateZ(0);
@@ -3014,8 +3020,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     overflow: hidden;
     display: block;
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 4%;
+    width: 90%;
+    padding-top: 0%;
 }
 .slick-track {
     position: relative;
@@ -4223,9 +4230,9 @@ li a:hover, .dropdown2:hover .dropbtn2 {
 
 /*catalogue page*/
 .for-click-div {
-    float: right;
+    float: left;
     text-align: right;
-    margin-right: 17px;
+    margin-left: 17px;
 }
 
 .for-click-div a {
@@ -5091,3 +5098,43 @@ margin-top: 3%
 }
 /*switches page end from here */
 
+/*parallax start from here*/
+.parallax {
+  /* The image used */
+  background-image: url("../images/factory-banner2.png");
+  /* Set a specific height */
+  min-height: 548px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  text-align: center;
+}
+.parallax1 {
+  /* The image used */
+  /* Set a specific height */
+  min-height: 548px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  text-align: center;
+}
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+/*parallax ends from  here*/
